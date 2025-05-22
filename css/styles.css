@@ -11,7 +11,7 @@ nav a {  /*links within "nav" container */
   padding: 15px;
   padding-bottom: 4px;
   font-size: 1.8em;
-  text-decoration: none;  /*removes underline */
+  text-decoration: none;
   color: white;    /*by default, links are blue*/
   font-family: 'Pacifico', cursive
 }
@@ -21,16 +21,16 @@ nav a.current {
   color: purple;
 }
 
-nav a:hover {  /*pseudo class*/
+nav a:hover {
   border-bottom: 2px orange solid;
   font-size: 2em;
-  transition: .9s;    /*transition effect*/
+  transition: .9s;
 }
 
-nav a.current:hover {  /*pseudo class*/
+nav a.current:hover {
   border-bottom: 2px orange solid;
   font-size: 3.5em;
-  transition: .9s;    /*transition effect*/
+  transition: .9s;
 }
 
 main {
@@ -47,4 +47,12 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 4em;
   margin-bottom: 0px;
+}
+
+/* Project pages*/
+#project {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
 }
